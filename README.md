@@ -15,6 +15,6 @@ Despues de conar el repositorio, en la carpeta correr el siguiente comando:
 
 * mvn clear install
 
-Estoy descargara las dependencias del aplicativo y correra los test.
+Esto descargara las dependencias del aplicativo y correra los test.
 
 

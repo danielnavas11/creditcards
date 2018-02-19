@@ -26,7 +26,7 @@ public class TarjetaServiceTests {
                     .andExpect(status().isOk())
                     .andExpect(jsonPath("$.marca").value("SCO"))
                     .andExpect(jsonPath("$.importe").value("12345.0"))
-                    .andExpect(jsonPath("$.tasa").value("1111.05"));
+                    .andExpect(jsonPath("$.tasa").value("1172.775"));
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -52,7 +52,7 @@ public class TarjetaServiceTests {
                     .andExpect(status().isOk())
                     .andExpect(jsonPath("$.marca").value("PERE"))
                     .andExpect(jsonPath("$.importe").value("12345.0"))
-                    .andExpect(jsonPath("$.tasa").value("222.21000000000004"));
+                    .andExpect(jsonPath("$.tasa").value("234.55500000000004"));
         } catch (Exception e) {
             e.printStackTrace();
         }

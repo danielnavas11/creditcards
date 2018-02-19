@@ -9,3 +9,12 @@ importe= 99999999 `
 
 
 * => Los datos de prueban son; marca; sco e importe; 100
+
+### Build aplicacion y correr Test Unitarios
+Despues de conar el repositorio, en la carpeta correr el siguiente comando:
+
+* mvn clear install
+
+Estoy descargara las dependencias del aplicativo y correra los test.
+
+
